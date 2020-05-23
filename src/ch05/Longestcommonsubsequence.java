@@ -16,7 +16,7 @@ public class Longestcommonsubsequence {
     }
     public static void main(String[] args)
     {
-        LongestCommonSubsequence lcs = new LongestCommonSubsequence();
+        Longestcommonsubsequence lcs = new Longestcommonsubsequence();
         String x = "STIK";
         String y = "PS";
         char[] a = x.toCharArray();

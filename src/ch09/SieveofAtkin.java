@@ -40,8 +40,8 @@ public class  SieveofAtkin{
     }
     public static void main (String[] args) {
         Scanner x = new Scanner(System.in);
-        System.out.println("Sieve Of Atkin Prima Algorithm Test\n");
-		 SieveOfAtkin y = new  SieveOfAtkin();
+        System.out.println("Sieve Of Atkin\n");
+		 SieveofAtkin y = new  SieveofAtkin();
         System.out.println("Masukkan angka :\n");
         int c = x.nextInt();
         y.getbilangan(c);        

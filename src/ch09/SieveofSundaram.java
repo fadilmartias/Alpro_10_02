@@ -24,10 +24,10 @@ public class  SieveofSundaram	{
     }
     public static void main (String[] args) {
         Scanner x = new Scanner(System.in);
-        System.out.println("Sieve Of Sundaram Prima Algorithm Test\n");
-        SieveOfSundaram y = new  SieveOfSundaram();
+        System.out.println("Sieve Of Sundaram\n");
+        SieveofSundaram y = new  SieveofSundaram();
         System.out.println("Masukkan angka :\n");
         int b = x.nextInt();
-        y.getPrimes(n);        
+        y.getPrimes(b);        
     }
 }

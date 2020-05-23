@@ -22,7 +22,7 @@ public class BlockSort {
             System.out.print(c+" ");
         }
         System.out.println();
-        new Blocksort(arr);
+        new BlockSort(arr);
 
         System.out.println("Setelah block sort");
         for(int c : arr){

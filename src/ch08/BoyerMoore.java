@@ -24,7 +24,7 @@ public class BoyerMoore	{
             for (e = pattern.length - 1; pattern[e] == text[d]; --d, --e) 
                      if (e == 0) 
                     return d;
-              d + = Math.max(offsetTable[pattern.length - 1 - e], charTable[text[d]]);
+              d += Math.max(offsetTable[pattern.length - 1 - e], charTable[text[d]]);
         }
         return -1;
       }

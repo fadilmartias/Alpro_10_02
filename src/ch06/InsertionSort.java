@@ -2,7 +2,7 @@ package ch06;
 
 public class InsertionSort {
     private int[] arr;
-	public Insertionsort(int a) {
+	public InsertionSort(int a) {
         this.arr = new int[a];
     }
 	public void setArr(int ind, int val) {
@@ -32,7 +32,7 @@ public class InsertionSort {
         }
     }
     public static void main(String[] args) {
-        Insertionsort z = new Insertionsort(13);
+        InsertionSort z = new InsertionSort(13);
 
        int[] angka = {82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3};
         z.setArr(0, 82);

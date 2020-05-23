@@ -3,7 +3,7 @@ package ch07;
 import java.util.Arrays;
 
 public class CocktailSort {
-    void cocktailsort(int arr[]){
+    void CocktailSort(int arr[]){
     boolean swapped;
 	do {
         swapped = false;
@@ -31,11 +31,11 @@ public class CocktailSort {
 }
     public static void main(String args[])
     {
-        cocktailsort cs = new cocktailsort();
+        CocktailSort cs = new CocktailSort();
         int arr[] = {82,12,41,38,19,26,9,48,20,55,8,32,3};
         System.out.println("Array sebelum disort :");
         System.out.println(Arrays.toString(arr));
-        cs.cocktailsort(arr);
+        cs.CocktailSort(arr);
         System.out.println("Array sesudah disort :");
         System.out.println(Arrays.toString(arr));
     }

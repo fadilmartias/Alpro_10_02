@@ -9,7 +9,7 @@ public class AKSPrimalityTest {
         System.out.print("Prima:");
         for (int a = 1; a < c.length; a++)
             if (isPrime(a))
-                System.out.print("%d", a);
+                System.out.printf("%d", a);
  
         System.out.println();
     }

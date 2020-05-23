@@ -8,7 +8,7 @@ public class Longestincreasingsubsequence {
             return 1;
         int r, max_ending_here = 1;
         for (int b = 1; b < a; b++) {
-            r = _lis(arr, b);
+            r = _lis(array, b);
             if (array[b - 1] < array[a - 1] && r + 1 > max_ending_here)
                 max_ending_here = r + 1;
         }
@@ -16,10 +16,10 @@ public class Longestincreasingsubsequence {
             max_ref = max_ending_here;
         return max_ending_here;
     }
-    static int lis(int arr[], int a)
+    static int lis(int array[], int a)
     {
         max_ref = 1;
-        _lis(arr, a);
+        _lis(array, a);
         return max_ref;
     }
     public static void main(String args[])

@@ -2,7 +2,7 @@ package ch06;
 
 public class SelectionSort {
     private int[] arr;
-	public Selectionsort(int a) {
+	public SelectionSort(int a) {
         this.arr = new int[a];
     }
 	public void setArr(int m, int n) {
@@ -34,7 +34,7 @@ public class SelectionSort {
         }
     }
     public static void main(String[] args) {
-        Selectionsort z = new Selectionsort(13);
+        SelectionSort z = new SelectionSort(13);
 
         int[] angka = {82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3};
         z.setArr(0, 82);

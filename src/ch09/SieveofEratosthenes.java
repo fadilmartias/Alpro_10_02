@@ -26,10 +26,10 @@ public class SieveofEratosthenes	{
     }
     public static void main (String[] args) {
         Scanner x = new Scanner(System.in);
-        System.out.println("Sieve Of Eratosthenes Prima Algorithm Test\n");
-        SieveOfEratosthenes y = new SieveOfEratosthenes();
+        System.out.println("Sieve Of Eratosthenes\n");
+        SieveofEratosthenes y = new SieveofEratosthenes();
         System.out.println("Masukkan angka :\n");
         int d = x.nextInt();
-        y.getPrimes(n);        
+        y.getPrimes(d);        
     }
 }

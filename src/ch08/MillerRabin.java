@@ -48,7 +48,7 @@ public class MillerRabin {
         MillerRabin mr = new MillerRabin();
         System.out.println("Nomor :\n");
         long x = input.nextLong();
-        System.out.println("\Iterasi : ");
+        System.out.println("Iterasi : ");
         int y = input.nextInt();
         boolean prime = mr.isPrime(x, y);
         if (prime)
