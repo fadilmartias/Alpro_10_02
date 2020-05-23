@@ -1,3 +1,5 @@
+package ch06;
+
 public class SelectionSort {
     private int[] arr;
 	public Selectionsort(int a) {

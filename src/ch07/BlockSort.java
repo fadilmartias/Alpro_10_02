@@ -1,3 +1,5 @@
+package ch07;
+
 public class BlockSort {
     private BlockSort(int[] arr) {
         int a = arr.length;

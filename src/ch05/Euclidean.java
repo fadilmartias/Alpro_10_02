@@ -1,3 +1,5 @@
+package ch05;
+
 import java.util.Scanner;
 public class Euclidean {
     public static void main(String[]args) {

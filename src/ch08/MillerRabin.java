@@ -1,3 +1,5 @@
+package ch08;
+
 import java.util.Scanner;
 import java.util.Random;
 import java.math.BigInteger;

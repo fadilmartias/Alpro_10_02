@@ -1,3 +1,5 @@
+package ch09;
+
 public class AKSPrimalityTest {
     private static final long[] c = new long[64];
     public static void main(String[] args) {

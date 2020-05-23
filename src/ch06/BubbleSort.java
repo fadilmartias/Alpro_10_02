@@ -1,3 +1,5 @@
+package ch06;
+
 public class BubbleSort { 
 	void bubbleSort(int arr[]) { 
 		int a = arr.length; 

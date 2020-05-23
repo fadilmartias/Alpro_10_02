@@ -1,3 +1,5 @@
+package ch05;
+
 public class Longestincreasingsubsequence {
     static int max_ref;
     static int _lis(int array[], int a)

@@ -1,3 +1,5 @@
+package ch06;
+
 public class InsertionSort {
     private int[] arr;
 	public Insertionsort(int a) {

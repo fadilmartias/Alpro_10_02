@@ -1,3 +1,5 @@
+package ch09;
+
 import java.util.Scanner;
 public class SieveofEratosthenes	{
     private int[] calcPrimes(int z) {

@@ -1,3 +1,5 @@
+package ch05;
+
 public class Longestcommonsubsequence {
     int lcs( char[] a, char[] b, int c, int d )
     {
